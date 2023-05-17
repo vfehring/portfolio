@@ -2,91 +2,15 @@ baseURL = 'http://example.org/'
 title = "VincenzoFehring.com"
 languageCode = 'en-us'
 DefaultContentLanguage = "en" # Change this to change the site's language
-theme = "hugo.386"
+theme = "github-style"
 preserveTaxonomyNames = true
 
 [params]
-    # The name to display as main title in the home page
-    mainpagetitle = "VincenzoFehring.com"
-
-    # The subtitle to display under the title in the home page
-    mainpagesubtitle = "Writing Code for 2+ Decades"
-
-    # The description of your website. It will be displayed on the home page
-    mainpagedesc = "A collection of random thoughts, change logs, notes, and postmortems related to my history as a software developer."
-
-    # The name to display in the copyright secttion in the footer
-    copyrightname = "Vincenzo Fehring"
-
-    # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    copyrighturl = "https://vincenzofehring.com"
-
-    # Show the "built on Hugo" disclaimer
-    showhugo = true
-
-    # URLs for social networks
+    author = "Vincenzo Fehring"
+    description = "A collection of random thoughts, change logs, notes, and postmortems related to my history as a software developer."
+    avatar = "profile.JPG"
     github = "https://github.com/vfehring"
-
-    # Sets the speed for the page loading effect. Default is 1.0
-    loadspeedfactor = 1.0
-
-    # Enables or disables the second flyby cursor. Default is false.
-    loadonepass = true
-
-[params.copyright]
-    name = "Vincenzo Fehring"
-
-    # The URL to use as link in the copyright name in the footer. Leave empty to use none.
-    url = "https://vincenzofehring.com"
-
-    # Text to go before copyright information
-    prefix = ""
-
-    # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = ""
-
-[menu]
-    # This displays buttons in the navbar to access your content
-    [[menu.main]]
-        identifier = "about" # A unique identifier for the button
-        name = "About" # A display name for the button
-        url = "/about/" # The path to the content. It can lead to a single page (like here)
-        weight = 10 # A number to order the buttons in the navbar
-
-    [[menu.main]]
-        identifier = "posts"
-        name = "Changelog"
-        url = "/post/" # The path can lead to a content folder too.
-        weight = 20
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-
-
-[privacy]
-
-    [privacy.vimeo]
-        disabled = false
-        simple = true
-
-    [privacy.twitter]
-        disabled = false
-        enableDNT = true
-        simple = true
-
-    [privacy.instagram]
-        disabled = false
-        simple = true
-
-    [privacy.youtube]
-        disabled = false
-        privacyEnhanced = true
-
-[services]
-
-    [services.instagram]
-        disableInlineCSS = true
-
-    [services.twitter]
-        disableInlineCSS = true
+    rss = true
+    lastmod = true
+    favicon = "/images/github.png"
+    location = "Houston, TX"
