@@ -4,6 +4,7 @@ languageCode = 'en-us'
 DefaultContentLanguage = "en" # Change this to change the site's language
 theme = "github-style"
 preserveTaxonomyNames = true
+copyright = "Vincenzo Fehring"
 
 [params]
     author = "Vincenzo Fehring"
