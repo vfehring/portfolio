@@ -1,7 +1,8 @@
 ---
 title: "Working With Go"
 date: 2023-05-26T22:41:19-05:00
-draft: true
+draft: false
+author: "Vincenzo Fehring"
 categories: ["devlog"]
 tags: ["languages", "go", "discord"]
 ---
